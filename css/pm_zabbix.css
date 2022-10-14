@@ -1,0 +1,172 @@
+.ag-theme-alpine .ag-horizontal-left-spacer:not(.ag-scroller-corner) {
+  opacity: 0%;
+  background: none;
+}
+.ag-watermark {
+  opacity: 0 !important;
+  display: none !important;
+}
+#myGrid {
+  height: calc(100% - 244px);
+}
+.content {
+  height: 100%;
+}
+
+#pdf_content .row, #pdf_content .container, #pdf_content .card, #pdf_content .card .card-body .table-responsive #eventsGrid {
+  height: 100%;  
+}
+#pdf_content {
+    height: calc(100% - 115px);
+  }
+  .content #pdf_content {
+    padding-bottom: .25rem;
+}
+  #pdf_content .container {
+    height: calc(100% - 99px);
+  }
+
+#pdf_content .card .card-body {
+    height: calc(100% - 30px);
+}
+#pdf_content .card .card-body .table-responsive {
+  width: 100%;
+  height: 100%;
+}
+.content #pdf_content {
+    padding-top: 1.75rem;
+}
+.alerts {
+    padding-right: 0.5rem;
+    font-size: .75rem;
+    font-weight: 400;
+}
+.alerts span {
+    display: inline-block;
+    margin: 0 .35rem;
+}
+.alerts .alerts-status {
+    display: inline-block;
+    width: 5.55rem;
+    height: 0.65rem;
+    margin-top: 0.255rem;
+    border-radius: 1rem;
+    background: linear-gradient(90deg, rgba(0,155,15,1) 0%, rgba(255,0,15,1) 100%);
+}
+.content header .breadcrumbs b {
+  font-size: 0.875rem;
+}
+aside .main-menu {
+  padding-right: 0.5rem !important;
+  overflow-x: hidden;
+}
+.ag-theme-alpine {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+#eventsGrid .ag-header-cell-text {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding-left: 1rem;
+}
+.ag-theme-alpine .ag-ltr .ag-cell {
+  border-radius: 4px;
+}
+.ag-header-cell-label,
+.ag-cell-label-container,
+.ag-header-viewport {
+  background: #fff;
+}
+#eventsGrid .ag-header-viewport, #eventsGrid .ag-header-cell-label {
+  background: #f5f6f8;
+}
+#eventsGrid.ag-theme-alpine .ag-header {
+    margin-bottom: 0;
+}
+.ag-theme-alpine .ag-pinned-left-header {
+    border-right-color: #dde2eb;
+}
+.ag-theme-alpine .ag-ltr .ag-group-contracted {
+  margin-right: 6px;
+}
+.ag-group-value {
+  padding-left: 4px;
+}
+.ag-theme-alpine .ag-side-buttons {
+  width: 24px;
+}
+.ag-theme-alpine .ag-header,
+.ag-theme-alpine .ag-ltr .ag-side-bar-right {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.ag-theme-alpine .ag-header {
+  margin-bottom: 0.25rem;
+}
+.ag-theme-alpine .ag-ltr .ag-row-level-1 .ag-pivot-leaf-group {
+  margin-left: 1px;
+}
+.ag-theme-alpine .ag-header-icon,
+.ag-theme-alpine .ag-header-cell-resize {
+  display: none;
+}
+.ag-header-group-text {
+  font-weight: 500;
+  padding-left: 1rem;
+}
+.ag-theme-alpine .ag-icon {
+  font-size: 15px;
+  line-height: 15px;
+}
+.ag-theme-alpine .ag-checkbox-input-wrapper {
+  font-size: 14px;
+  line-height: 14px;
+  width: 14px;
+  height: 14px;
+}
+.ag-theme-alpine .ag-row {
+  font-size: 13px;
+}
+.ag-theme-alpine .ag-ltr .ag-side-bar-right .ag-side-button-button,
+.ag-theme-alpine .ag-rtl .ag-side-bar-left .ag-side-button-button {
+  font-size: 11px;
+}
+.ag-header-cell-text {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 0.65rem;
+}
+.ag-theme-alpine .ag-side-buttons {
+  padding-top: 29px;
+}
+
+.ag-theme-alpine .ag-cell {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.ag-theme-alpine .ag-ltr .ag-selection-checkbox {
+  margin-right: 8px;
+}
+.ag-theme-alpine .ag-root-wrapper {
+  border: none;
+}
+.ag-theme-alpine .ag-header-cell,
+.ag-theme-alpine .ag-header-group-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.ag-theme-alpine .ag-ltr .ag-side-bar-right .ag-tool-panel-wrapper,
+.ag-theme-alpine .ag-rtl .ag-side-bar-left .ag-tool-panel-wrapper {
+  border-right: none;
+  border-right-color: #fff;
+}
+.ag-theme-alpine .ag-tool-panel-wrapper {
+  width: 220px;
+}
+.ag-theme-alpine .ag-header-row:not(:first-child) .ag-header-cell, .ag-theme-alpine .ag-header-row:not(:first-child) .ag-header-group-cell.ag-header-group-cell-with-group {
+    border-top: 1px solid #dde2eb;
+}
+.ag-theme-alpine .ag-cell.ag-cell-last-left-pinned:not(.ag-cell-range-right):not(.ag-cell-range-single-cell) {
+    border-right: 1px solid #babfc7;
+    border-right-color: #dde2eb;
+}
